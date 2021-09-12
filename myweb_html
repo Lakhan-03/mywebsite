@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakhan</title>
+    <style>
+        .topmostcontainer{
+    background: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  /*border : solid 10px;
+  padding: 20px;
+    margin: 0px;
+    height: 200px;
+    width: 200px;*/
+  }
+  .profile{
+    background-color: #ffc2b4
+  }
+  .skills{
+    background-color: #8fd6e1;
+    padding-bottom: 100px;
+    padding-top: 10px;
+  }
+  
+  .contact-me{
+    background-color: #adeecf;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .achievements{
+    background-color: #c0e218;
+  }
+  body {
+    text-align: center;
+  font-family: 'Comfortaa', cursive;
+  line-height: 2;
+  }
+  
+  hr {
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 5%;
+  
+  }
+  h1 {
+  
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size:100px;
+  }
+  h2{font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  padding-bottom: 10px;
+  }
+  h3{font-family:'Roboto Mono', monospace;
+  font-size: 40px;}
+  
+  .skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+  }
+  
+  .rainbow1{
+    position: absolute;
+    left: 100px;
+  
+  }
+  
+  .rainbow2{
+    position: absolute;
+    right: 100px;
+  
+  }
+  a{
+    margin: 10px 20px;
+  }
+  
+  .btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+    </style>
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Sacramento&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <div class="topmostcontainer">
+        <h1>I'm Lakhan</h1>
+        <p>A Young Data Scientist & Web Developer</p>
+    </div>
+
+    <div class="profile">
+        <img src="https://pbs.twimg.com/profile_images/1433381299763310605/Hg63i4VT_400x400.jpg" alt="" height="200" width="200">
+        <h2>Hello</h2>
+        <p>My name is Lakhan Bairwa. I am currently pursuing my B-tech from NIT Raipur from Chemical branch. I am from Bhilwara(Rajasthan).
+            My hobbies are reading books, coding and interacting with people.
+        </p>
+    </div>
+
+    <hr>
+    <div class="skills">
+        <h2>My Skills</h2>
+
+        <div class="skill-row">
+            <h3>Data Science</h3>
+            <p>
+                I am currently exploring Python and it's amazing libraries. I made some project on IPL Data Analysis, Sales Analysis, Covid-Data Analysis and Stock Analysis of Asian Paint with 
+                help of Numpy, Pandas, Matplotlib and Seaborn. I am also exploring Machine Learning. 
+            </p>
+        </div>
+
+        <div class="skill-row">
+            <h3>Designing</h3>
+
+            <p>I am currently learning Adobe XD. I have created posters, youtube thumbnails, instagram carousels with help of canva</p>
+
+        </div>
+
+        <div class="skill-row">
+            <h3>Web development</h3>
+            <p>I am a front end developer. I have created some landing pages.</p>
+        </div>
+
+        <div class="skill-row">
+            <h3>Programming</h3>
+
+            <p>I also given a try to C++ & DSA.</p>
+
+        </div>
+
+
+    </div>
+    <hr>
+
+    <div class="contact-me" >
+        <h2>Get In Touch</h2>
+        <p>To exchange our interests and know more about me use the contact below</p>
+        <a class="btn" href = "mailto:bairwalakhan339@gmail.com"> CONTACT ME </a>
+    </div>
+
+    <div>
+<a class="footer-link" href="https://in.linkedin.com/in/lakhan-bairwa-6801a51bb"> Linkdln</a>
+<a class="footer-link" href="https://mobile.twitter.com/lakhan__03">Twitter</a>
+<p>© 2021 Lakhan Bairwa.</p>
+    </div>
+
+</body>
+</html>
